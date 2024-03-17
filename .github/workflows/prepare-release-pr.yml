@@ -8,9 +8,14 @@ on:
         required: true
         default: ''
       major:
+        
         description: 'Major release? (yes/no)'
+        
         required: true
         default: 'no'
+        options: 
+          - no
+          - yes
       prerelease:
         description: 'Prerelease (ex: rc1). Leave empty if not a pre-release.'
         required: false
